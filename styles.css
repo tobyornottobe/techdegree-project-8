@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0;
+  background-image: url("svgs/background.svg");
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+}
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  transition-duration: 1s;
+}
+
+.nav-svg {
+  transform: scale(.6);
+  transform-origin: 0px 25px;
+  fill: currentcolor;
+  transition-duration: .2s;
+}
+
+.red:hover, .nav-svg:hover, a:hover {
+  transform: scale(1.2);
+  color: red;
+  fill: red;
+}
+
+.logo-svg {
+    width: 140px;
+    height: 120px;
+}
+
+.st1 {
+  fill:white;
+}
+
+.dog-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dog-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dog-container span {
+  margin-top: 20px;
+}
+
+#Layer_2 {
+  display: none;
+}
+
+.sable {
+  color: #C27E58;
+  fill: #C27E58;
+}
+.fawn {
+  color: #ECAF7E;
+  fill: #ECAF7E;
+}
+.cred {
+  color: #834729;
+  fill: #834729;
+}
+.stone {
+  color: #505558;
+  fill: #505558;
+}
+
+
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+
+
+@media (min-width: 425px) {
+  .st1 {
+    fill:#eaaa7f;
+  }
+  .logo-text {
+    display: none;
+  }
+}
