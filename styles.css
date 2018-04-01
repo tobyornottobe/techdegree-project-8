@@ -60,6 +60,10 @@ header nav ul li {
 .logo-svg {
     width: 140px;
     height: 120px;
+    transition-duration: .2s;
+}
+.logo-svg:hover {
+    transform: scale(1.2);
 }
 
 .st1 {
